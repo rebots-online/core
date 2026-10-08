@@ -5,10 +5,7 @@ concurrency:
   cancel-in-progress: true
 
 on:
-  pull_request:
-    branches: [main, develop]
-  push:
-    branches: [main, develop]
+  workflow_dispatch:
 
 jobs:
   # pylint:
